@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# This project was built in just one night after reviewing and rehashing Reach, NodeJS, Express, and MySQL.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The intent is to demonstrate different styles of coding, skill level, and comprehension.
 
-## Available Scripts
+## Description of frontend:
 
-In the project directory, you can run:
+The frontend is built in React. It connects with the backend for Restful API calls and display the data accordingly. The styling is based off Bootstrap and kept very simple as more emphasis were placed on clean coding. The front end also continue to utilize JWT token-based authentication/authorization.
 
-### `npm start`
+The main page is the Housing list page that is open to all viewers. Then user can login to add new listing, edit current listing, or delete existing listing. User will also be able to view profile and add additional user as need.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What more can I do with this project had I more time?:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I would stress test the app to ensure security is sound such as SQL injection, XSS scripting, verbose message or information leak. There are plenty of library available to create a more secure token transaction and further reinforce the Restful APIs. Additionally, I typically use a single css framework to enhance the appearance. I am experienced in using Bootstrap, Material UI, and Bulma.
 
-### `npm test`
+## Running the app locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Download the repo
+2. Type `npm install` to ensure you have all dependecies installed
+3. Type `npm start`
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Viola! The app will start running, and you can view the web in action!
+SwaggerUI is utilized with the backend and can be found at `localhost:8080/api-docs`
