@@ -1,6 +1,6 @@
 # This project was built in just one night after reviewing and rehashing Reach, NodeJS, Express, and MySQL.
 
-The intent is to demonstrate different styles of coding, skill level, and comprehension.
+The object is to demonstrate skill level, and comprehension.
 
 ## Description of frontend:
 
@@ -10,7 +10,7 @@ The main page is the Housing list page that is open to all viewers. Then user ca
 
 ## What more can I do with this project had I more time?:
 
-I would stress test the app to ensure security is sound such as SQL injection, XSS scripting, verbose message or information leak. There are plenty of library available to create a more secure token transaction and further reinforce the Restful APIs. Additionally, I typically use a single css framework to enhance the appearance. I am experienced in using Bootstrap, Material UI, and Bulma.
+This project would be rewritten from ground up in TypesScript to demonstrate solid understanding of the superscript, making the work more scalable, modular and minimize repeatition. I would include more testing with Jest to justify my work. Finally, refactor everything to ensure that there's no security vulnerabilities, ensure loose coupling, and overall tight and clean coding were used.
 
 ## Running the app locally:
 
